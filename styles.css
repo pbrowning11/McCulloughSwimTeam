@@ -76,6 +76,7 @@ article h2 {
 article p {
     line-height: 2em;
     color: #4b4b4b;
+    font-size: 1.5em;
 }
 footer {
     background: blue;
@@ -122,6 +123,7 @@ footer {
   div.coachDescription {
     padding-top: 50px;
     padding-left: 50px;
+    font-size: 1.5em;
     /* font-size: 5vw; */
   }
   .email{
@@ -132,6 +134,9 @@ footer {
     grid-template-columns: auto auto auto;
     gap: 10px;
     padding: 10px;
+  }
+  .coach_img{
+    padding-left: 20px;
   }
   @media screen and (max-width: 1400px) {
     
@@ -183,7 +188,12 @@ footer {
     }
     div.coachDescription{
         padding-top: 0;
+        font-size: 1em;
+        /* padding-left: 0; */
     }
+    .coach_img{
+        padding-left: 0px;
+      }
     .grid-container-sponsors {
         display: grid;
         grid-template-columns: 100%;
