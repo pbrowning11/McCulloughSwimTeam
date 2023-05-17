@@ -144,6 +144,9 @@ footer {
   .pps {
     padding-left: 150px;
   }
+  .moxie {
+    padding-top: 50px;
+  }
 @media screen and (max-width: 1400px) {
     
     .banner .welcome h2{
@@ -175,19 +178,14 @@ footer {
         /* height: 200px; */
         padding-left: 0px;
      }
-        /* position: relative;
+    .moxie {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .sponsor_lvl {
+        text-decoration: underline;
         text-align: center;
-        padding: 10px; */
-    /* }
-    .banner .welcome br{
-        display: none;
     }
-    .banner .welcome h2 {
-        font-size: 25px;
-    }
-    .banner .welcome span {
-        font-size: 1em;
-    }  */
     header {
         padding: 0;
     }
