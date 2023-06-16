@@ -147,6 +147,9 @@ footer {
   .moxie {
     padding-top: 50px;
   }
+  .about {
+    font-size: x-small;
+  }
 @media screen and (max-width: 1400px) {
     
     .banner .welcome h2{
